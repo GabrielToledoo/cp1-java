@@ -1,0 +1,12 @@
+
+N
+java:S1172",Remove this unused method parameter "chave".(ã¦¾ıÿÿÿÿ8Ä¥ÛØé1
+G
+java:S2201"*The return value of "indent" must be used.(Å’÷ô8“ŸáØé1
+L
+java:S2201"*The return value of "indent" must be used.(¸ú¼†ùÿÿÿÿ8 ıáØé1
+c
+java:S1854""ARemove this useless assignment to local variable "textoOriginal".(ËÄŒ÷ûÿÿÿÿ8¡ƒäØé1
+T
+java:S1481""2Remove this unused "textoOriginal" local variable.(ËÄŒ÷ûÿÿÿÿ8£ƒäØé1
+L	java:S106#"+Replace this use of System.out by a logger.(Ğ«Â—úÿÿÿÿ8º—ÍØé1

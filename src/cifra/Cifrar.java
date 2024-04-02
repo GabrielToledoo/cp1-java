@@ -15,7 +15,7 @@ public class Cifrar {
               int codigoAscii = (int) charactere;
               //verifica se a base a ser analizada do caractere é maiusculo ou minusculo, eçe faz essa verificação ai se for TRUE o valor base é 65 (pois é o A maiúsculo) e se for FALSE é 97 (pois é o a minúsculo)
               int base = Character.isUpperCase(charactere) ? 65 : 97;
-              //primeiro subtrai o valor da letra original pelo valor da base, isto para obter a letra minuscula ou maiuscula, depois adicinamos o valor da chave para obter a cifragem.
+              //primeiro subtrai o valor da letra original pelo valor da base, isto para obter a letra minuscula ou maiuscula, depois adicionamos o valor da chave para obter a cifragem.
               //após isso a variável obtem o restante do valor da divisão por 26, isto é, precisa dividir por 26 para manter o valor da letra cifrada dentro dos valores do codigo ascii, pois sem isso o valor sairá muito maior do que o afalfeto suporta.
               int cifradoCodigoAscii = (codigoAscii - base + chave) % 26 + base;
               //armazena dentro do stringbuilder o caratere cifrado
